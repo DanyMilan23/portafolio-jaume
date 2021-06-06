@@ -1,4 +1,5 @@
 @import "./button.css";
+@import "./hero.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -23,7 +24,7 @@
 body {
   background: var(--gradient);
   min-block-size: 100vh;
-  position: relative;
+  font: var(--body1);
   display: flex;
   flex-direction: column;
   font-family: Poppins;
@@ -33,7 +34,7 @@ header {
   display: flex;
   flex-direction: row;
 }
-h1 {
+/* h1 {
   font: var(--headline1);
   color: #310a90;
   margin-top: 0px;
@@ -56,7 +57,7 @@ h5 {
 p {
   font: var(--body1);
   letter-spacing: 0.005em;
-}
+} */
 .logo {
   font-style: normal;
   font-weight: 900;
@@ -88,33 +89,10 @@ p {
   color: var(--purple);
   cursor: pointer;
 }
-.container-infopersonal {
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: space-between;
-  margin-left: 128px;
-  margin-right: 80px;
+.button-cv {
+  display: none;
 }
-.texto-informativo {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.texto-informativo h2 {
-  margin: 0px;
-}
-.texto-informativo h5 {
-  margin-top: 75px;
-  text-align: initial;
-}
-.texto-informativo p {
-  width: 450px;
-}
-.container-botones a {
-  display: inline-block;
-  margin-right: 16px;
-}
+
 .container-presentacion {
   display: flex;
   flex-direction: column;
@@ -283,4 +261,21 @@ h5 {
   display: flex;
   flex-direction: row;
   gap: 29px;
+}
+@media screen and (max-width: 480px) {
+  .container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  .logo {
+    margin: 0px;
+  }
+  .menu {
+    display: none;
+  }
+  .button-cv {
+    display: block;
+  }
 }
