@@ -35,6 +35,14 @@
 .project-image img {
   width: inherit;
 }
+.project-image.netnet {
+  max-width: 302px;
+  min-width: 302px;
+  width: 100%;
+}
+.project-image.netnet img {
+  width: inherit;
+}
 .code-buttons {
   display: flex;
   flex-direction: row;

@@ -3,6 +3,7 @@
 @import "./presentation.css";
 @import "./project.css";
 @import "./card.css";
+@import "./contact.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -96,63 +97,6 @@ p {
   display: none;
 }
 
-.container-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 0px;
-}
-.form-data {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 543px;
-}
-.form-data h4 {
-  background: var(--purple);
-  box-shadow: -4px 4px 0px #ffffff;
-  color: white;
-  margin: 0px;
-  width: inherit;
-  text-align: center;
-  gap: 16px;
-}
-.form-data p {
-  letter-spacing: 0.005em;
-  text-align: center;
-  color: white;
-}
-.input-label {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  align-self: stretch;
-  margin: 16px 0px;
-  width: inherit;
-}
-.input-label label {
-  padding: 0px 16px;
-  font: var(--body1);
-  margin-bottom: 8px;
-}
-.input-label span {
-  color: #da1414;
-}
-.input-label input {
-  background: #ffffff;
-  border: 1px solid #858c94;
-  box-sizing: border-box;
-  border-radius: 8px;
-  padding: 12px 16px;
-  width: inherit;
-}
-.message {
-  height: 168px;
-}
 .container-footer {
   display: flex;
   flex-direction: row;

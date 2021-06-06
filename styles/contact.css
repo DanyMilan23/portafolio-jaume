@@ -1,0 +1,81 @@
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 411px;
+}
+.form-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: -webkit-fill-available;
+}
+.form-data h4 {
+  font: var(--headline4);
+  background: var(--purple);
+  box-shadow: -4px 4px 0px #ffffff;
+  color: white;
+  margin: 0px;
+  width: inherit;
+  text-align: center;
+  gap: 16px;
+}
+.form-data p {
+  letter-spacing: 0.005em;
+  text-align: center;
+  color: white;
+}
+.input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  align-self: stretch;
+  margin: 16px 0px;
+  width: inherit;
+}
+.input-label label {
+  padding: 0px 16px;
+  font: var(--body1);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.input-label span {
+  color: #da1414;
+}
+.input-label input {
+  background: #ffffff;
+  border: 1px solid #858c94;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: inherit;
+}
+.message {
+  height: 168px;
+}
+@media screen and (max-width: 480px) {
+  .container-form {
+    padding: 40px 16px 80px;
+  }
+  .form-data {
+    align-items: flex-start;
+    padding-bottom: 80px;
+  }
+  .form-data h4 {
+    text-align: start;
+    padding: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    width: fit-content;
+  }
+  .form-data p {
+    text-align: start;
+  }
+}
