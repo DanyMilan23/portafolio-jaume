@@ -1,6 +1,7 @@
 @import "./button.css";
 @import "./hero.css";
 @import "./presentation.css";
+@import "./project.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -92,35 +93,6 @@ p {
 }
 .button-cv {
   display: none;
-}
-
-.container-leonidas {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  justify-content: space-between;
-  padding-inline-start: 128px;
-  padding-inline-end: 113px;
-  padding-block-start: 80px;
-  padding-block-end: 80px;
-  gap: 24px;
-}
-.information-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 16px;
-}
-.information-text h4 {
-  background: var(--purple);
-  box-shadow: -4px 4px 0px #ffffff;
-  color: white;
-  padding: 4px 8px;
-  margin: 0px;
-  width: fit-content;
-}
-.information-text p {
-  white-space: inherit;
 }
 .card-section {
   display: flex;
