@@ -1,0 +1,56 @@
+.card-section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 117px;
+  height: 100%;
+}
+.card-recomendation {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 24px;
+}
+.card-recomendation h4,
+h5 {
+  text-align: center;
+  margin: 0px;
+}
+.card-recomendation h4 {
+  font: var(--headline4);
+  font-family: Oxygen;
+  color: #310a90;
+}
+.card-recomendation h5 {
+  font: var(--headline5);
+  opacity: 0.5;
+}
+@media screen and (max-width: 480px) {
+  .card-section {
+    padding: 40px 16px 80px;
+  }
+  .card-recomendation {
+    padding: 24px;
+  }
+  .card-recomendation h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    text-align: initial;
+  }
+  .card-recomendation h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    text-align: initial;
+  }
+}

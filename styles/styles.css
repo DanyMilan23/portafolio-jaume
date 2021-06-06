@@ -2,6 +2,7 @@
 @import "./hero.css";
 @import "./presentation.css";
 @import "./project.css";
+@import "./card.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -94,36 +95,7 @@ p {
 .button-cv {
   display: none;
 }
-.card-section {
-  display: flex;
-  flex-direction: column;
-  padding: 80px 117px;
-  height: 100%;
-}
-.card-recomendation {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(40px);
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px;
-  gap: 24px;
-}
 
-.card-recomendation h4,
-h5 {
-  text-align: center;
-  margin: 0px;
-}
-.card-recomendation h4 {
-  font-family: Oxygen;
-  color: #310a90;
-}
-.card-recomendation h5 {
-  opacity: 0.5;
-}
 .container-leonidas.changed {
   flex-direction: row-reverse;
 }
