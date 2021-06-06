@@ -1,5 +1,6 @@
 @import "./button.css";
 @import "./hero.css";
+@import "./presentation.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -93,31 +94,6 @@ p {
   display: none;
 }
 
-.container-presentacion {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  padding-inline-start: 233px;
-  padding-inline-end: 233px;
-  padding-block-start: 200px;
-  padding-block-end: 200px;
-  gap: 24px;
-}
-.container-presentacion h4 {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.container-presentacion h5 {
-  text-align: center;
-  margin-top: 0px;
-}
-.container-flecha {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .container-leonidas {
   display: flex;
   flex-direction: row;
