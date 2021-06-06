@@ -17,6 +17,7 @@
 }
 .information-text h4 {
   background: var(--purple);
+  font: var(--headline4);
   box-shadow: -4px 4px 0px #ffffff;
   color: white;
   padding: 4px 8px;
@@ -34,11 +35,23 @@
 .project-image img {
   width: inherit;
 }
+.code-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+}
 @media screen and (max-width: 480px) {
   .container-leonidas {
     display: flex;
     flex-direction: column-reverse;
     height: 100%;
     padding: 40px 16px;
+  }
+  .information-text h4 {
+    font: var(--headline5);
+  }
+  .code-buttons {
+    flex-direction: column;
   }
 }

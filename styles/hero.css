@@ -64,4 +64,7 @@
     width: auto;
     margin: 0px;
   }
+  .container-boton-cv a {
+    width: -webkit-fill-available;
+  }
 }
