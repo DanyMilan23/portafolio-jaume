@@ -41,6 +41,15 @@
   justify-content: flex-start;
   gap: 16px;
 }
+.container-leonidas.changed {
+  flex-direction: row-reverse;
+}
+.container-leonidas.netnet {
+  padding: 80px 274px 80px 128px;
+}
+.information-text.netnet {
+  width: 449px;
+}
 @media screen and (max-width: 480px) {
   .container-leonidas {
     display: flex;
@@ -53,5 +62,14 @@
   }
   .code-buttons {
     flex-direction: column;
+  }
+  .container-leonidas.changed {
+    flex-direction: column-reverse;
+  }
+  .container-leonidas.netnet {
+    padding: 29px;
+  }
+  .information-text.netnet {
+    width: auto;
   }
 }

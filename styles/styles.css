@@ -96,15 +96,6 @@ p {
   display: none;
 }
 
-.container-leonidas.changed {
-  flex-direction: row-reverse;
-}
-.container-leonidas.netnet {
-  padding: 80px 274px 80px 128px;
-}
-.information-text.netnet {
-  width: 449px;
-}
 .container-form {
   display: flex;
   flex-direction: column;
