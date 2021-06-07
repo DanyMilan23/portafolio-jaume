@@ -4,6 +4,7 @@
 @import "./project.css";
 @import "./card.css";
 @import "./contact.css";
+@import "./footer.css";
 :root {
   --fontBase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
@@ -95,27 +96,6 @@ p {
 }
 .button-cv {
   display: none;
-}
-
-.container-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  color: white;
-  padding-left: 128px;
-  padding-right: 128px;
-}
-.logo.footer {
-  color: white;
-  margin: 0px;
-}
-.class-with-love {
-  display: flex;
-  display: flex;
-  flex-direction: row;
-  gap: 29px;
 }
 @media screen and (max-width: 480px) {
   .container-menu {
