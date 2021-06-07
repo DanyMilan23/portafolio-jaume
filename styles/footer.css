@@ -4,8 +4,6 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding-left: 128px;
-  padding-right: 128px;
   padding-bottom: 83px;
 }
 .logo.footer {
@@ -32,5 +30,8 @@
   .class-with-love p {
     text-align: center;
     margin: 0px;
+  }
+  .container-botones.footer {
+    justify-content: center;
   }
 }
