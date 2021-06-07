@@ -4,14 +4,14 @@
   flex-direction: row;
   flex-flow: nowrap;
   justify-content: space-between;
-  padding-left: 128px;
-  padding-right: 80px;
+  gap: 32px;
 }
 .texto-informativo {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 75px;
+  padding-top: 75px;
+  max-inline-size: 450px;
 }
 .texto-informativo h2 {
   font: var(--headline2);
@@ -23,7 +23,6 @@
 }
 .texto-informativo p {
   font: var(--body1);
-  width: 450px;
 }
 .container-botones {
   display: flex;
@@ -32,11 +31,13 @@
   gap: 16px;
 }
 .imagen-info {
+  border: 1px solid red;
   max-width: 500px;
   min-width: 300px;
   width: 100%;
 }
 .imagen-info img {
+  max-inline-size: 500px;
   width: inherit;
 }
 @media screen and (max-width: 480px) {
